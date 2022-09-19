@@ -3,9 +3,8 @@ import ReactDOM from 'react-dom';
 //import App from './components/App';
 
 function Card(props) {
-    console.log(props);
     return (
-        <div>
+        <div className="my-style">
             <h2>{props.name}</h2>
             <img src={props.img} alt="avatar-img" />
             <p>{props.tel}</p>
